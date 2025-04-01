@@ -1,0 +1,114 @@
+.content{
+    margin-top: 90px;
+    margin-bottom: 80px;
+}
+
+.content .title{
+    background: red;
+    width: 100%;
+    position: fixed;
+    top: 90;
+    padding: 10px;
+}
+
+.content .title h1{
+    color: #fff;
+    font-weight: 900;
+    text-align: center;
+
+}
+
+.content .cards{
+    padding: 58px 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.content .cards .card{
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    height: 130px;
+    border: 5px solid darkblue;
+    border-radius: 10px;
+    margin-top: 10px;
+    transition: 0.5s;
+}
+
+.content .cards .card:hover{
+    background: rgb(168, 168, 171);
+    transition: 0.5s;
+}
+
+.content .cards .card .number{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content .cards .card .number span{
+    font-size: 20px;
+    font-weight: 900;
+    color: darkblue;
+}
+
+.content .cards .card .photo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content .cards .card .photo img{
+    height: 130px;
+    width: 130px;
+}
+
+.content .cards .card .name{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content .cards .card .name span{
+    font-size: 25px;
+    font-weight: 900;
+    color: darkblue;
+    text-transform: uppercase;
+}
+
+.content .cards .card .details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content .cards .card .details span{
+    font-size: 20px;
+    font-weight: 900;
+    color: darkblue;
+    text-align: center;
+}
+
+.content .cards .card .export{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content .cards .card .export button{
+    height: 50px;
+    width: 100px;
+    font-size: 17px;
+    font-weight: 700;
+    background: green;
+    color: #fff;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.content .cards .card .export button:hover{
+    color: green;
+    background: #fff;
+    transition: 0.5s;
+}

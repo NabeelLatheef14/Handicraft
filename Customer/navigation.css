@@ -1,0 +1,81 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.topbar{
+  display: flex;
+  justify-content: space-between;
+  background: #328be0;
+  height: 70px;
+  padding: 5px;
+  border: 5px solid #004382;
+  align-items: center;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+    z-index: 1;
+}
+
+.topbar h1{
+  color: #fff;
+  font-weight: 900;
+  padding-left: 20px;
+}
+
+.topbar button{
+  height: 50px;
+  width: 100px;
+  color: #fff;
+  background: #001f3c;
+  cursor: pointer;
+  font-weight: 900;
+  font-size: 17px;
+  margin-right: 20px;
+  transition: 0.5s;
+}
+
+.topbar button:hover{
+  color: #001f3c;
+  background: #fff;
+  transition: 0.5s;
+}
+
+.nav-buttons{
+  display: flex;
+  width: 75%;
+  height: 75px;
+  justify-content: space-between;
+  position: fixed;
+  bottom: 10;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  z-index: 1;
+}
+
+.nav-buttons button{
+  width: 100%;
+  font-size: 30px;
+  color: #fff;
+  background: #001f3c;
+  border: 5px solid #328be0;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.nav-buttons button:hover{
+  border: 5px solid #001f3c;
+  background: #328be0;
+  transition: 0.5s;
+}
+
+.nav-buttons .left{
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+
+.nav-buttons .right{
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}

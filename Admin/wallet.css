@@ -1,0 +1,229 @@
+.content {
+    margin-left: 250px;
+    padding: 95px 25px 25px 25px;
+    height: auto;
+    background-position: center;
+    background-size: cover;
+    transition: 0.5s;
+    font-family: "Roboto", sans-serif;
+}
+
+#check:checked~.content {
+    margin-left: 60px;
+}
+
+#check {
+    display: none;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    width: 100%;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+.wallet {
+    width: 35%;
+    height: 100%;
+    border: 2px solid black;
+    border-radius: 6px;
+    padding: 5px;
+}
+
+.transactions {
+    width: 60%;
+    height: 100%;
+    border: 2px solid black;
+    border-radius: 6px;
+    padding: 5px;
+}
+
+h1 {
+    margin: 0;
+    padding: 8px 48px;
+    background: #333;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 24px;
+    position: sticky;
+}
+
+.balance{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.icon{
+    font-size: 150px;
+    color: #0298cf;
+}
+
+
+.amount{
+    font-size: 70px;
+    font-weight: 900;
+}
+
+.amount .rupe{
+    color: brown;
+}
+
+.btn {
+    width: 130px;
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+  }
+
+.custom-button {
+    background: rgb(247,150,192);
+    background: radial-gradient(circle, rgba(247,150,192,1) 0%, rgba(118,174,241,1) 100%);
+    line-height: 42px;
+    padding: 0;
+    border: none;
+  }
+  .custom-button span {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-weight: 900;
+  }
+  .custom-button:before,
+  .custom-button:after {
+    position: absolute;
+    content: "";
+    height: 0%;
+    width: 1px;
+   box-shadow:
+     -1px -1px 20px 0px rgba(255,255,255,1),
+     -4px -4px 5px 0px rgba(255,255,255,1),
+     7px 7px 20px 0px rgba(0,0,0,.4),
+     4px 4px 5px 0px rgba(0,0,0,.3);
+  }
+  .custom-button:before {
+    right: 0;
+    top: 0;
+    transition: all 500ms ease;
+  }
+  .custom-button:after {
+    left: 0;
+    bottom: 0;
+    transition: all 500ms ease;
+  }
+  .custom-button:hover{
+    background: transparent;
+    color: #76aef1;
+    box-shadow: none;
+  }
+  .custom-button:hover:before {
+    transition: all 500ms ease;
+    height: 100%;
+  }
+  .custom-button:hover:after {
+    transition: all 500ms ease;
+    height: 100%;
+  }
+  .custom-button span:before,
+  .custom-button span:after {
+    position: absolute;
+    content: "";
+    box-shadow:
+     -1px -1px 20px 0px rgba(255,255,255,1),
+     -4px -4px 5px 0px rgba(255,255,255,1),
+     7px 7px 20px 0px rgba(0,0,0,.4),
+     4px 4px 5px 0px rgba(0,0,0,.3);
+  }
+  .custom-button span:before {
+    left: 0;
+    top: 0;
+    width: 0%;
+    height: .5px;
+    transition: all 500ms ease;
+  }
+  .custom-button span:after {
+    right: 0;
+    bottom: 0;
+    width: 0%;
+    height: .5px;
+    transition: all 500ms ease;
+  }
+  .custom-button span:hover:before {
+    width: 100%;
+  }
+  .custom-button span:hover:after {
+    width: 100%;
+  }
+
+  .info{
+    margin: 20px 10px 10px 10px;
+    padding: 5px;
+    border: 5px solid red;
+    border-radius: 6px;
+  }
+
+  .alert{
+    text-align: center;
+    font-weight: 600;
+    color: green;
+  }
+
+  .details{
+    height: 493px;
+    margin: 10px;
+    width: 97%;
+    overflow-x: scroll;
+  }
+
+  ::-webkit-scrollbar{
+    display: none;
+  }
+
+  .credit{
+    margin: 5px;
+    border: 3px solid green;
+    border-radius: 6px;
+    padding: 10px;
+    font-weight: 700;
+    transition: 0.5s;
+    
+  }
+
+  .credit:hover{
+    color: white;
+    background-color: green;
+    transition: 0.5s;
+  }
+
+  .debit{
+    margin: 5px;
+    border: 3px solid red;
+    border-radius: 6px;
+    padding: 10px;
+    font-weight: 700;
+    transition: 0.5s;
+  }
+
+  .debit:hover{
+    color: white;
+    background-color: red;
+    transition: 0.5s;
+  }

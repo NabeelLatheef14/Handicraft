@@ -1,0 +1,62 @@
+.content {
+    margin-left: 250px;
+    padding: 95px 25px 25px 25px;
+    height: auto;
+    background-position: center;
+    background-size: cover;
+    transition: 0.5s;
+    font-family: "Roboto", sans-serif;
+}
+
+#check:checked~.content {
+    margin-left: 60px;
+}
+
+#check {
+    display: none;
+}
+
+.table{
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.table .head{
+    background-color: #0c4872;
+    padding: 10px;
+}
+
+.table .head span{
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.table .body table{
+    margin-top: 10px;
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+.table .body table tr th, td{
+    padding: 5px;
+    border: 3px solid #0c4872;
+}
+
+th{
+    width: 25%;
+}
+
+td{
+    width: 75%;
+}
+
+button{
+    background-color: #0c4872;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 6px;
+    width: 25%;
+    cursor: pointer;
+}

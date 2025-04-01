@@ -1,0 +1,159 @@
+.content {
+    margin-left: 250px;
+    padding-top: 70px;
+    height: auto;
+    background-position: center;
+    background-size: cover;
+    transition: 0.5s;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  #check:checked~.content {
+      margin-left: 60px;
+  }
+  
+  #check {
+      display: none;
+  }
+
+  .main {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+
+  .title{
+    border-bottom: 5px solid darkblue;
+  }
+
+  .title h1{
+    text-align: center;
+    color: darkblue;
+    font-weight: 900;
+  }
+
+  .left{
+    width: 49%;
+  }
+
+  .left .head{
+    border-bottom: 5px solid darkblue;
+  }
+
+  .left .head h1{
+    text-align: center;
+    color: darkblue;
+    font-weight: 900;
+  }
+
+  .right{
+    width: 50%;
+  }
+
+  .right .head{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 5px solid darkblue;
+  }
+
+  .right .head h1{
+    text-align: center;
+    color: darkblue;
+    font-weight: 900;
+  }
+
+  .right .head button{
+    height: 35px;
+    color: #fff;
+    background: darkblue;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 30px;
+    transition: 0.5s;
+  }
+
+  .right .head button:hover{
+    color: darkblue;
+    background: #fff;
+    transition: 0.5s;
+  }
+
+  .right .input{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  .right .input label{
+    width: 30%;
+  }
+
+  .right .input input{
+    width: 69%;
+    height: 30px;
+    color: black;
+    text-align: center;
+    font-size: 15px;
+  }
+
+  .right .table{
+    margin-top: 10px;
+  }
+
+  table{
+    width: 100%;
+    border-collapse: collapse;
+    
+  }
+
+  table thead{
+    background: darkblue;
+    color: #fff;
+    text-transform: uppercase;
+    z-index: 2;
+  }
+
+  table thead tr th{
+    padding: 10px
+  }
+
+  table tbody{
+    max-height: 340px;
+    overflow-y: scroll;
+  }
+
+  table tbody tr td{
+    padding: 5px;
+  }
+
+  table tbody tr:nth-child(even){
+    background: rgb(178, 178, 178);
+  }
+
+  table tbody tr:hover{
+    background: rgb(68, 68, 192);
+    color: #fff;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+
+  #div2{
+    height: 310px;
+    overflow-y: scroll;
+  }
+
+  tbody tr{
+    justify-content: center;
+    transition: 0.5s;
+  }
+
+  tbody tr td img{
+    width: 50px;
+    height: 50px;
+  }
+
+
+    ::-webkit-scrollbar{
+      display: none;
+    }
